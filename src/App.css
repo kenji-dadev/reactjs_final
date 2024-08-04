@@ -1,0 +1,152 @@
+.fw-bold{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgba(22, 16, 129, 0.884);
+    text-shadow: 5px 10px 10px rgba(146, 11, 214, 0.884);
+    
+}
+.bg-light{
+    /* font-weight: bold; */
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-control{
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.add{
+    margin-top: 2rem;
+    padding: 20px;
+    box-shadow: 1px 1px 3px rgba(34, 33, 34, 0.884);
+    width: 600px;
+    border-radius: 5px;
+}
+
+.add h2{
+    text-align: center;
+    font-family: 'Phetsarath OT';
+    font-size: 35px;
+    font-weight: 800;
+    margin: 10px;
+}
+.container-sm .form-control{
+    margin: 0px 15px;
+    font-family: 'Phetsarath OT';
+    
+}
+.container-sm label{
+    margin: 2px 15px;
+    font-family: 'Phetsarath OT';
+    font-size: 25px;
+    font-weight: 500;
+}
+.container-sm button{
+    font-family: 'Phetsarath OT';
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.col-md-3{
+    box-shadow: 1px 1px 5px rgba(14, 14, 14, 0.884);
+    margin: 2px auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.manage img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.manage .fw-normal{
+    font-family: 'Phetsarath OT';
+    margin: 10px 0px;
+}
+.manage .col-md-3 button{
+    font-family: 'Phetsarath OT';
+    margin: 10px;
+}
+.tabale{
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 1px 1px 5px rgba(14, 14, 14, 0.884);
+    font-family: 'Phetsarath OT';
+    text-align: center;
+}
+
+.cont{
+    margin: 10px auto;
+    margin-left: 100px;
+}
+
+.col-md-6{
+    width: 600px;
+    box-shadow: 1px 1px 5px rgba(14, 14, 14, 0.884);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.col-md-6 .col-auto img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+.col-lg-6{
+    font-family: 'Phetsarath OT';
+   
+}
+.mind{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-transform: uppercase;
+   
+}
+.mind img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.mind  .text{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(16, 4, 83);
+    text-shadow: 2px 3px 1px rgba(5, 196, 213, 0.5);
+    
+}
+.txt{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.b-text{
+    margin-left: 6.3rem;
+    margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.mind-1{
+    width: 80%;
+    margin: auto;
+    text-transform: uppercase;
+}
+.mind-1 img {
+    
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.logo1{
+    width: 500px;
+    height: 350px;
+    margin: auto;
+}
+
