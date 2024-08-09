@@ -9,7 +9,6 @@ function Contact() {
     <>
     <NavbarCT/>
     <div class="cont row mb-2">
-
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
@@ -46,7 +45,6 @@ function Contact() {
     </div>
     
   </div>
-
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
@@ -63,7 +61,6 @@ function Contact() {
     </div>
   </div>
 
-  
 <Footer/>
 
     </>

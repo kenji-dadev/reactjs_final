@@ -4,6 +4,7 @@ import Table from 'react-bootstrap/Table';
 import '../../App.css';
 import { db } from '../../database/firebase';
 import { collection, doc, deleteDoc, onSnapshot } from 'firebase/firestore';
+import Footer from '../Footer';
 
 function DelRes() {
   const [data, setData] = useState([]);
@@ -65,6 +66,16 @@ function DelRes() {
           ))}
         </tbody>
       </Table>
+
+    <div class="overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+      <div class="col-md-6 p-lg-5 mx-auto my-5">
+        
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+  <Footer/>
+
     </>
   );
 }

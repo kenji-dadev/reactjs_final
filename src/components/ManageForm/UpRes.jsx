@@ -8,6 +8,7 @@ import {
   onSnapshot,
   updateDoc,
 } from "firebase/firestore";
+import Footer from "../Footer";
 
 const FormInputData = () => {
   const [form, setForm] = useState({});
@@ -210,6 +211,17 @@ const FormInputData = () => {
         </tbody>
       </table>
     </div>
+
+    <div class="overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+      <div class="col-md-6 p-lg-5 mx-auto my-5">
+        
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+
+
+    <Footer/>
     </>
   );
 };

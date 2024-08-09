@@ -13,11 +13,14 @@ import {
   import AddRes from './components/ManageForm/AddRes'
   import UpRes from './components/ManageForm/UpRes'
   import DelRes from './components/ManageForm/DelRes'
+  import ViewRestaurant from './components/ViewRestaurant'
+
   
   const elements = createRoutesFromElements(
     <>
 
-      <Route path="/" element={<Home/>} />
+      <Route path="/" element={<Login/>} />
+      <Route path="home" element={<Home/>} />
       <Route path="contact" element={<Contact/>} />
       <Route path="management" element={<Management/>} />
       <Route path="admin" element={<Admin/>} />
@@ -26,6 +29,9 @@ import {
       <Route path="addres" element={<AddRes/>} />
       <Route path="upres" element={<UpRes/>} />
       <Route path="delres" element={<DelRes/>} />
+      <Route path="viewrestaurant" element={<ViewRestaurant/>} />
+      
+      
       
     </>
   )

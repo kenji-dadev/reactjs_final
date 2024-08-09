@@ -1,17 +1,33 @@
 
 import NavbarCT from './NavbarCT'
 import '../App.css'
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import { format } from 'date-fns';
+import { db } from '../database/firebase';
+import { collection, onSnapshot, doc, deleteDoc } from 'firebase/firestore';
 
 function Admin() {
   const currentDate = new Date();
-  const formattedDate = format(currentDate, 'dd-MM-yyyy');
+  const formattedDate = format(currentDate,'dd-MM-yyyy');
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const unsubscribe = onSnapshot(collection(db, 'Restaurant'), (snapshot) => {
+      const dataList = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
+      setData(dataList);
+    });
+
+    // Cleanup subscription on unmount
+    return () => unsubscribe();
+  }, []);
 
 
   return (
    <>
-    
+   
       <NavbarCT/>
        
       <div class="mind  p-3 bg-light rounded">

@@ -17,7 +17,7 @@ function NavbarCT() {
           <Navbar.Collapse id="responsive-navbar-nav" className='bg-light'>
               <Nav className="me-auto"></Nav>
               <Nav className="mr-auto bg-light" >
-                <LinkContainer to="/">
+                <LinkContainer to="/home">
                   <Nav.Link>Home</Nav.Link>
                 </LinkContainer>
                 <LinkContainer to="/admin">
@@ -28,6 +28,9 @@ function NavbarCT() {
                 </LinkContainer>
                 <LinkContainer to="/management">
                   <Nav.Link>Management</Nav.Link>
+                </LinkContainer>
+                <LinkContainer to="/login">
+                  <Nav.Link><button type="button" class="btn btn-danger">Log Out</button></Nav.Link>
                 </LinkContainer>
               </Nav>
           </Navbar.Collapse>

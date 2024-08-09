@@ -10,6 +10,7 @@ function Home() {
     <>
     <NavbarCT/> 
     <SearchBar/>
+    
     <ColHero/>
     <Footer/>
 

@@ -3,7 +3,7 @@ import NavbarCT from './NavbarCT'
 import { LinkContainer } from 'react-router-bootstrap';
 import '../App.css'
 import Nav from 'react-bootstrap/Nav';
-import cat from "../assets/Screenshot 2024-07-25 082816.png"
+import cat from "../assets/WhatsApp Image 2024-08-05 at 2.39.54 PM.jpeg"
 import Footer from './Footer'
 
 function Management() {
@@ -22,7 +22,7 @@ function Management() {
             </p>
             <LinkContainer to="/addres">
                   <Nav.Link><button type="button" class="btn btn-primary btn-lg">ເພີ່ມຮ້ານຄ້າ</button></Nav.Link>
-                </LinkContainer>
+            </LinkContainer>
           </div>
          
           <div className="col-md-3 text-center">
@@ -32,7 +32,7 @@ function Management() {
               <br /> ເພາະໃສ່ໃຈໄດ້ມອງ!</p>
             <LinkContainer to="/upres">
                   <Nav.Link><button type="button" class="btn btn-primary btn-lg">ແກ້ໄຂຮ້ານຄ້າ</button></Nav.Link>
-                </LinkContainer>
+            </LinkContainer>
           </div>
           <div className="col-md-3 text-center">
             <img src={cat} alt="" className='rounded'/>
@@ -40,7 +40,7 @@ function Management() {
             <p className="fw-normal">ການລົບຂໍ້ມູນທີ່ໄວກວ່າການດິດນີ້ວ <br /> ເພາະແຄ່ການຄິກເຈົ້າກະພ້ອມຈາກລາ! </p>
             <LinkContainer to="/delres">
                   <Nav.Link><button type="button" class="btn btn-primary btn-lg">ລົບຂໍ້ມູນຮ້ານຄ້າ</button></Nav.Link>
-                </LinkContainer>
+            </LinkContainer>
           </div>
           
           
